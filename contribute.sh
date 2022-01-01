@@ -62,7 +62,6 @@ fi
        git add .
        git commit --date="$date-$month-$year" -m "☕️"
        commitdate="$date-$month-$year"
-       git push
        echo $commitdate  >> dates.txt
        done
        echo "Month is ~ $month and number of days in it is $nod"
