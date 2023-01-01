@@ -60,10 +60,7 @@ fi
        do
        echo ☕️ >> contribute.txt
        git add .
-       git commit --date="$date-$month-$year" -m "☕️"
-       commitdate="$date-$month-$year"
-       echo $commitdate  >> dates.txt
+       git commit --date=$date-$month-$year -m "☕️"
        done
-       echo "Month is ~ $month and number of days in it is $nod"
 done
 
