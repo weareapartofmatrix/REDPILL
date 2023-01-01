@@ -60,8 +60,8 @@ fi
        do
        echo ☕️ >> contribute.txt
        git add .
-       git commit --date=$date-$month-$year -m "☕️"
-       echo $date-$month-$year >> dates.txt
+       git commit --date=$year-$month-$date -m "☕️"
+       echo $year-$month-$date >> dates.txt
        done
 done
 
